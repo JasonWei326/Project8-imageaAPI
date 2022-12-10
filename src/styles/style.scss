@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(83, 14, 14, 0.768);
+}
+p {
+  font-size: 1.5rem;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: black;
+  border: 3px solid rgb(10, 10, 10);
+}
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+
+  button {
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: rgb(246, 196, 139);
+    cursor: pointer;
+    transition: 0.5s all;
+    &:active {
+      transform: scale(1.5);
+    }
+  }
+}
+@import "./footer";
+@import "./nav";
+@import "./picture";
+@import "./search";
